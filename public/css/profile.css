@@ -1,0 +1,43 @@
+/* พื้นหลัง Sky Blue */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* เต็มหน้าจอ */
+}
+
+/* กรอบสีขาวตรงกลาง */
+.profile-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* รูปโปรไฟล์ */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #005f99;
+  margin-bottom: 20px;
+}
+
+/* ชื่อ */
+.profile-container h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #005f99;
+}
+
+/* ข้อความใต้ชื่อ */
+.profile-container p {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 10px;
+}
